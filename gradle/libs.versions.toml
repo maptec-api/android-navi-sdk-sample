@@ -1,0 +1,22 @@
+[versions]
+agp = "8.10.1"
+kotlin = "2.0.21"
+coreKtx = "1.17.0"
+activityCompose = "1.12.4"
+composeBom = "2024.09.00"
+# 与 SDK 发版对齐；更新 Sample 时优先改此版本并打同号 Tag
+navisdk = "0.0.5"
+
+[libraries]
+sdk-navi-standalone = { group = "com.maptec.applied", name = "sdk-navi-standalone", version.ref = "navisdk" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Navi SDK Sample</string>
+    <string name="demo_menu_title">Navigation SDK %1$s</string>
+    <string name="demo_menu_screen_title">Navi SDK Sample Project</string>
+    <string name="demo_menu_a11y_expand">Expand section</string>
+    <string name="demo_menu_a11y_collapse">Collapse section</string>
+    <string name="demo_menu_a11y_navigate">Navigate</string>
+
+    <string name="demo_card_auth_title">Auth config</string>
+    <string name="demo_card_auth_subtitle">API Key / License config</string>
+    <string name="demo_card_quick_start_title">Quick start</string>
+    <string name="demo_card_quick_start_subtitle">Auth + route plan + navigation</string>
+
+    <string name="demo_along_route_entry">Along route</string>
+    <string name="demo_along_route_search">Search</string>
+    <string name="demo_along_route_search_hint">Search location</string>
+    <string name="demo_along_route_back">Back</string>
+    <string name="demo_along_route_category_gas">Gas station</string>
+    <string name="demo_along_route_category_charging">Charging</string>
+    <string name="demo_along_route_category_restroom">Restroom</string>
+    <string name="demo_along_route_category_dining">Dining</string>
+
+    <string name="demo_item_driving">Driving route planning</string>
+
+    <string name="demo_section_route_guide">Route Guidance</string>
+    <string name="demo_item_guide_driving">Driving route guidance</string>
+
+    <string name="demo_section_multi_navi">Multi-type Navigation</string>
+    <string name="demo_item_multi_type_navi">Multi-type navigation demo</string>
+
+    <string name="demo_section_sdk_api">SDK API</string>
+    <string name="demo_item_page_launch_invalid_end">Page launch: invalid end POI (Failure)</string>
+    <string name="demo_page_launch_not_initialized">Page launch failed: call NaviSdk.initialize() first.</string>
+    <string name="demo_page_launch_invalid_end">Page launch failed: invalid end POI coordinates.</string>
+    <string name="demo_page_launch_invalid_start">Page launch failed: invalid start POI coordinates.</string>
+    <string name="demo_page_launch_invalid_via">Page launch failed: invalid via POI at index %1$d.</string>
+    <string name="demo_item_biz_route_service">Biz layer: NaviRouteBizService</string>
+    <string name="demo_item_atomic_route_service">Atomic layer: NaviRouteService</string>
+    <string name="demo_page_launch_validate_ok">validateRoutePlanParams passed (Activity not started).</string>
+
+    <string name="demo_toast_coming_soon">Coming soon</string>
+
+    <!-- Demo menu screen (Figma 4141:1733) -->
+    <string name="demo_menu_section_route_plan_component">Route plan component</string>
+    <string name="demo_menu_section_nav_component">Navigation component</string>
+    <string name="demo_menu_section_ui_custom">Component customization</string>
+    <string name="demo_menu_section_extension">Extension examples</string>
+    <string name="demo_menu_section_language_settings">Multi-language settings</string>
+    <string name="demo_menu_item_announcement_language">Broadcast language</string>
+    <string name="demo_menu_value_language_zh_cn">中文 (zh-CN)</string>
+    <string name="demo_menu_value_language_en_us">English(en-US)</string>
+
+    <string name="demo_menu_switch_route_refresh">Route component visibility</string>
+    <string name="demo_menu_switch_route_preference">Route preference component visibility</string>
+    <string name="demo_menu_switch_route_detail">Route detail component visibility</string>
+    <string name="demo_menu_switch_route_card">Route card visibility</string>
+    <string name="demo_menu_switch_start_navi">Start navigation visibility</string>
+    <string name="demo_menu_item_route_method">Route calculation method</string>
+    <string name="demo_menu_route_method_start_end">Start/end routing</string>
+    <string name="demo_menu_route_method_no_start">End-only routing</string>
+    <string name="demo_menu_route_method_with_vias">Routing with via points</string>
+    <string name="demo_menu_btn_enter_route_plan">Enter route plan component</string>
+
+    <string name="demo_menu_switch_guide_card">Guidance card visibility</string>
+    <string name="demo_menu_switch_lane">Lane guidance visibility</string>
+    <string name="demo_menu_switch_speedometer">Speedometer visibility</string>
+    <string name="demo_menu_switch_guide_arrow">Guidance arrow visibility</string>
+    <string name="demo_menu_switch_road_name">Current road name visibility</string>
+    <string name="demo_menu_switch_eta_card">ETA card visibility</string>
+    <string name="demo_menu_switch_exit">Exit component visibility</string>
+    <string name="demo_menu_switch_overview">Overview component visibility</string>
+    <string name="demo_menu_switch_recenter">Recenter component visibility</string>
+    <string name="demo_menu_switch_eta_bar">ETA bar visibility</string>
+    <string name="demo_menu_switch_play_style">Announcement mode control visibility</string>
+    <string name="demo_menu_switch_refresh">Refresh</string>
+    <string name="demo_menu_item_nav_method">Navigation mode</string>
+    <string name="demo_menu_item_nav_method_real">Real Navigation</string>
+    <string name="demo_menu_item_nav_method_simulated">Simulated Navigation</string>
+    <string name="demo_menu_btn_enter_nav_component">Enter navigation component</string>
+
+    <string name="demo_menu_item_custom_guide_color">Custom guidance panel color</string>
+    <string name="demo_menu_item_custom_fixed_view">Custom fixed view scale and pitch</string>
+    <string name="demo_menu_custom_day_mode">Day mode</string>
+    <string name="demo_menu_custom_night_mode">Night mode</string>
+    <string name="demo_menu_custom_main_panel_color">Main panel color</string>
+    <string name="demo_menu_custom_lane_color">Lane info color</string>
+    <string name="demo_menu_custom_heading_up">Heading up</string>
+    <string name="demo_menu_custom_north_up">North up</string>
+    <string name="demo_menu_custom_scale">Scale</string>
+    <string name="demo_menu_custom_pitch">Pitch angle</string>
+    <string name="demo_menu_item_along_route">Along-route search during navigation</string>
+    <string name="demo_menu_item_via_point_edit">Waypoint and destination changes during navigation</string>
+</resources>
