@@ -19,7 +19,7 @@ dependencyResolutionManagement {
         mavenCentral()
         // Maptec Maven releases（公开制品）
         maven {
-            url = uri("https://maven.maptec.cn/repository/maven-releases/")
+            url = uri("https://maven.maptec.com/repository/maven-releases/")
         }
     }
 }

@@ -43,7 +43,7 @@ Application 模块 `:navi-sdk-sample` 入口页可体验：
 
    ```kotlin
    maven {
-       url = uri("https://maven.maptec.cn/repository/maven-releases/")
+       url = uri("https://maven.maptec.com/repository/maven-releases/")
    }
    ```
 
@@ -89,7 +89,7 @@ Application 模块 `:navi-sdk-sample` 入口页可体验：
 
 | 现象 | 处理 |
 | ---- | ---- |
-| 同步报错 / 无法下载依赖 | 确认可访问 `maven.maptec.cn`，并检查 `navisdk` 版本是否已发布 |
+| 同步报错 / 无法下载依赖 | 确认可访问 `maven.maptec.com`，并检查 `navisdk` 版本是否已发布 |
 | 打开算路 / 导航失败 | 确认 `maptec_apiKey` / `signature_sha1` 已替换，且与包名、签名一致 |
 | 提示定位权限 | 在系统设置中为应用授予定位权限后重试 |
 | 期望高度自定义导航主界面 | 组件方案可能不匹配；见上文「适用与局限」，并关注后续接入形态 |
