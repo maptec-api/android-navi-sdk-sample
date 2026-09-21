@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+
+    <application
+        android:name=".NaviSdkDemoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_demo_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NaviSdkDemo">
+        <meta-data android:name="maptec_apiKey" android:value="YOUR_API_KEY" />
+        <meta-data android:name="signature_sha1" android:value="YOUR_SIGNATURE_SHA1" />
+
+        <activity
+            android:name=".NaviSdkDemoActivity"
+            android:exported="true"
+            android:screenOrientation="userPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".NaviSdkDemoNavHostActivity"
+            android:exported="false"
+            android:screenOrientation="userPortrait" />
+
+        <activity
+            android:name=".NaviSdkDemoDrivingRoutePlanActivity"
+            android:exported="false"
+            android:screenOrientation="userPortrait" />
+
+        <activity
+            android:name=".alongroute.DemoAlongRouteGuideActivity"
+            android:exported="false"
+            android:screenOrientation="userPortrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".via.DemoGuidePointEditActivity"
+            android:exported="false"
+            android:screenOrientation="userPortrait" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">导航 SDK Sample</string>
+    <string name="demo_menu_title">导航 SDK %1$s</string>
+    <string name="demo_menu_screen_title">导航 SDK 示例工程</string>
+    <string name="demo_menu_a11y_expand">展开</string>
+    <string name="demo_menu_a11y_collapse">收起</string>
+    <string name="demo_menu_a11y_navigate">进入</string>
+
+    <string name="demo_card_auth_title">鉴权配置</string>
+    <string name="demo_card_auth_subtitle">API Key / License 配置</string>
+    <string name="demo_card_quick_start_title">快速接入</string>
+    <string name="demo_card_quick_start_subtitle">鉴权+行前规划+导航</string>
+
+    <string name="demo_along_route_entry">沿途搜</string>
+    <string name="demo_along_route_search">搜索</string>
+    <string name="demo_along_route_search_hint">请搜索位置</string>
+    <string name="demo_along_route_back">返回</string>
+    <string name="demo_along_route_category_gas">加油站</string>
+    <string name="demo_along_route_category_charging">充电站</string>
+    <string name="demo_along_route_category_restroom">卫生间</string>
+    <string name="demo_along_route_category_dining">餐饮</string>
+
+    <string name="demo_item_driving">驾车路径规划</string>
+
+    <string name="demo_section_route_guide">路径引导</string>
+    <string name="demo_item_guide_driving">驾车路径引导</string>
+
+    <string name="demo_section_multi_navi">多类型导航</string>
+    <string name="demo_item_multi_type_navi">多类型导航演示</string>
+
+    <string name="demo_section_sdk_api">SDK 接口</string>
+    <string name="demo_item_page_launch_invalid_end">页面唤起：非法终点（Failure 演示）</string>
+    <string name="demo_page_launch_not_initialized">页面唤起失败：请先成功调用 NaviSdk.initialize()。</string>
+    <string name="demo_page_launch_invalid_end">页面唤起失败：终点坐标无效。</string>
+    <string name="demo_page_launch_invalid_start">页面唤起失败：起点坐标无效。</string>
+    <string name="demo_page_launch_invalid_via">页面唤起失败：途径点 %1$d 坐标无效。</string>
+    <string name="demo_item_biz_route_service">业务层：NaviRouteBizService</string>
+    <string name="demo_item_atomic_route_service">原子层：NaviRouteService</string>
+    <string name="demo_page_launch_validate_ok">validateRoutePlanParams 通过（未启动 Activity）。</string>
+
+    <string name="demo_toast_coming_soon">敬请期待</string>
+
+    <!-- Demo menu screen (Figma 4141:1733) -->
+    <string name="demo_menu_section_route_plan_component">行前规划组件</string>
+    <string name="demo_menu_section_nav_component">导航组件</string>
+    <string name="demo_menu_section_ui_custom">组件自定义配置</string>
+    <string name="demo_menu_section_extension">拓展功能示例</string>
+    <string name="demo_menu_section_language_settings">多语言设置</string>
+    <string name="demo_menu_item_announcement_language">播报语言</string>
+    <string name="demo_menu_value_language_zh_cn">中文(zh-CN)</string>
+    <string name="demo_menu_value_language_en_us">English(en-US)</string>
+
+    <string name="demo_menu_switch_route_refresh">刷新组件显示开关</string>
+    <string name="demo_menu_switch_route_preference">路线偏好组件显示开关</string>
+    <string name="demo_menu_switch_route_detail">路线详情组件显示开关</string>
+    <string name="demo_menu_switch_route_card">路线卡片显示开关</string>
+    <string name="demo_menu_switch_start_navi">开始导航显示开关</string>
+    <string name="demo_menu_item_route_method">算路方式</string>
+    <string name="demo_menu_route_method_start_end">起终点算路</string>
+    <string name="demo_menu_route_method_no_start">无起点算路</string>
+    <string name="demo_menu_route_method_with_vias">有途经点算路</string>
+    <string name="demo_menu_btn_enter_route_plan">进入行前规划组件</string>
+
+    <string name="demo_menu_switch_guide_card">引导卡片显示开关</string>
+    <string name="demo_menu_switch_lane">车信显示开关</string>
+    <string name="demo_menu_switch_speedometer">码表显示开关</string>
+    <string name="demo_menu_switch_guide_arrow">引导箭头显示开关</string>
+    <string name="demo_menu_switch_road_name">当前路名显示开关</string>
+    <string name="demo_menu_switch_eta_card">ETA卡片显示开关</string>
+    <string name="demo_menu_switch_exit">退出组件显示开关</string>
+    <string name="demo_menu_switch_overview">全览组件显示开关</string>
+    <string name="demo_menu_switch_recenter">回正组件显示开关</string>
+    <string name="demo_menu_switch_eta_bar">ETA bar显示开关</string>
+    <string name="demo_menu_switch_refresh">刷新</string>
+    <string name="demo_menu_switch_play_style">播报模式控件显示开关</string>
+    <string name="demo_menu_item_nav_method">导航方式</string>
+    <string name="demo_menu_item_nav_method_real">真实导航</string>
+    <string name="demo_menu_item_nav_method_simulated">模拟导航</string>
+    <string name="demo_menu_btn_enter_nav_component">进入导航组件</string>
+
+    <string name="demo_menu_item_custom_guide_color">自定义引导面板颜色</string>
+    <string name="demo_menu_item_custom_fixed_view">自定义固定视角比例尺与俯仰角</string>
+    <string name="demo_menu_custom_day_mode">白天模式</string>
+    <string name="demo_menu_custom_night_mode">夜间模式</string>
+    <string name="demo_menu_custom_main_panel_color">主面板颜色</string>
+    <string name="demo_menu_custom_lane_color">车信条颜色</string>
+    <string name="demo_menu_custom_heading_up">车头朝上</string>
+    <string name="demo_menu_custom_north_up">北朝上</string>
+    <string name="demo_menu_custom_scale">比例尺</string>
+    <string name="demo_menu_custom_pitch">俯仰角</string>
+    <string name="demo_menu_item_along_route">行中沿途搜</string>
+    <string name="demo_menu_item_via_point_edit">行中途径点与目的地变更</string>
+</resources>
