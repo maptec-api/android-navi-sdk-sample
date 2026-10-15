@@ -54,11 +54,11 @@ fun DemoMenuScreen(
 //                    subtitleRes = R.string.demo_card_auth_subtitle,
 //                    onClick = { onAction(DemoMenuAction.Auth) },
 //                )
-                SimpleCategoryCard(
-                    titleRes = R.string.demo_card_quick_start_title,
-                    subtitleRes = R.string.demo_card_quick_start_subtitle,
-                    //onAction(DemoMenuAction.ComingSoon) },
-                )
+//                SimpleCategoryCard(
+//                    titleRes = R.string.demo_card_quick_start_title,
+//                    subtitleRes = R.string.demo_card_quick_start_subtitle,
+//                    //onAction(DemoMenuAction.ComingSoon) },
+//                )
                 RoutePlanCard(
                     onEnter = { scenario, visibility ->
                         onAction(DemoMenuAction.OpenRoutePlan(scenario, visibility))
