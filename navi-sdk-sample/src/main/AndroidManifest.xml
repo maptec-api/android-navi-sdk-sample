@@ -48,6 +48,8 @@
             android:name=".via.DemoGuidePointEditActivity"
             android:exported="false"
             android:screenOrientation="userPortrait" />
-</application>
+
+
+    </application>
 
 </manifest>

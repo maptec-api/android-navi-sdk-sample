@@ -17,6 +17,7 @@ android {
         versionName = "1.0"
         // mapengine-android / mapbiz-android 使用 renderer=opengl；消费端未声明 flavor 时需显式选侧，否则无法解析变体
         missingDimensionStrategy("renderer", "opengl")
+
     }
 
     buildTypes {

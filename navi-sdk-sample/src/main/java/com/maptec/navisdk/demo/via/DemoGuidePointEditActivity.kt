@@ -16,6 +16,9 @@ class DemoGuidePointEditActivity() : NaviSdkGuideActivity() {
 
     @Composable
     override fun contentOverlay(controller: GuideController) {
+
+        controller.setWayPointStyleClickable(true)
+
         GuidePointEditCardHost(
             modifier = Modifier.zIndex(11f),
             controller = controller,

@@ -5,7 +5,7 @@ coreKtx = "1.17.0"
 activityCompose = "1.12.4"
 composeBom = "2024.09.00"
 # 与 SDK 发版对齐；更新 Sample 时优先改此版本并打同号 Tag
-navisdk = "0.0.5"
+navisdk = "0.0.6.14"
 
 [libraries]
 sdk-navi-standalone = { group = "com.maptec.applied", name = "sdk-navi-standalone", version.ref = "navisdk" }
